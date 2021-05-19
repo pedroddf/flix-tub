@@ -1,0 +1,59 @@
+:root {
+  --color1: #141414;
+  --color2: #fff;
+  --color3: #4899d4;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html, body {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: var(--color1);
+  color: var(--color2);
+  font-size: 1.6rem;
+}
+
+.logo {
+  color: var(--color3);
+  text-align: center;
+}
+
+.container {
+  padding: 10px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+nav a {
+  margin-left: 10px;
+  text-decoration: none;
+  color: var(--color2);
+}
+
+#main-movie {
+  min-height: 400px;
+  background: transparent url("../images/main/movie1.jpg") no-repeat center;
+  background-size: cover;
+}
+/*# sourceMappingURL=main.css.map */
